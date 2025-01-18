@@ -6,7 +6,7 @@ services:
     ports:
       - "25565:25565"
       - "80:8080"
-      - "24454:24454"
+      - "24454:24454/udp"
     environment:
       INIT_MEMORY: 2G
       MAX_MEMORY: 10G
