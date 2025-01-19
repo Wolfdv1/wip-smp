@@ -349,6 +349,36 @@
         "https://cdn.modrinth.com/data/nxrXbh5K/versions/JHg6ZYop/viewdistancefix-fabric-1.21.4-1.0.2.jar"
       ],
       "fileSize": 265480
+    },
+    {
+      "path": "mods/CustomMotd-1.3+1.21.3.jar",
+      "hashes": {
+        "sha1": "cf4b9588883b938c43049eb35df53b45685d5d2f",
+        "sha512": "1085e498e3ceba25684edc3a40df89613730c00c00af4a08f9c131fc9d4979296d47161690d0c3dfb7d8a3f5141c9d1031a00f239cb1982a31e5677dee17573a"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/h9bitqRu/versions/3nlqbGiC/CustomMotd-1.3%2B1.21.3.jar"
+      ],
+      "fileSize": 525540
+    },
+    {
+      "path": "mods/placeholder-api-2.5.1+1.21.3.jar",
+      "hashes": {
+        "sha512": "c5ef09ad639b8f02592e7da265412f8bf66caabfc1c09a3b8dd1e4f85c0df16def125990e6c0ab25fc83ce25b4d2c525fea76a95c2a04f67b155e85ba182ef7a",
+        "sha1": "a4d87827d31f51db009fdf4cf98e16c6a94312f3"
+      },
+      "env": {
+        "server": "required",
+        "client": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/eXts2L7r/versions/GtmqzyeE/placeholder-api-2.5.1%2B1.21.3.jar"
+      ],
+      "fileSize": 237295
     }
   ],
   "dependencies": {

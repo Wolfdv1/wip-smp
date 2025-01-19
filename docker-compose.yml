@@ -26,7 +26,7 @@ services:
       MAX_WORLD_SIZE: 29999984
       ALLOW_NETHER: true
       ANNOUNCE_PLAYER_ACHIEVEMENTS: true
-      ENABLE_COMMAND_BLOCK: false
+      ENABLE_COMMAND_BLOCK: true
       FORCE_GAMEMODE: true
       GENERATE_STRUCTURES: true
       HARDCORE: false
