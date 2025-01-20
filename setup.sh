@@ -16,4 +16,5 @@ fi
 rm -rf ./data/.cache ./data/.fabric ./data/config ./data/datapacks ./data/DiscordIntegration-Data ./data/libraries ./data/mods ./data/versions ./data/.fabric-manifest.json ./data/.install-modrinth.env ./data/.modrinth-modpack-manifest.json ./data/.rcon-cli.env ./data/.rcon-cli.yaml ./data/eula.txt ./data/fabric-server-mc.* ./data/server.properties ./data/wip.mrpack
 zip -r -0 ./data/wip.mrpack ./server-overrides ./modrinth.index.json
 rm ./server-overrides/config/Discord-Integration.toml
-docker compose up
+docker compose up -d
+docker attach wip-smp-mc-1

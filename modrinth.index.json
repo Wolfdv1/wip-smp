@@ -364,6 +364,36 @@
         "https://cdn.modrinth.com/data/eXts2L7r/versions/GtmqzyeE/placeholder-api-2.5.1%2B1.21.3.jar"
       ],
       "fileSize": 237295
+    },
+    {
+      "path": "world/datapacks/AFK Announcer-[1.21]-v.2.4.2.zip",
+      "hashes": {
+        "sha1": "4549e8c51f67b9491ae21d24f2ed05bec9dfda0b",
+        "sha512": "bac900c72a26e7500c4983d46bbf8493cf61b751b35b6d1f268509fbb7a7bd93c5f56a0599507a78da1ed7843969559071db2d2d6fe4f74b2c8e904807c541d3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/26qk5hxQ/versions/VHmpTVeX/AFK%20Announcer-%5B1.21%5D-v.2.4.2.zip"
+      ],
+      "fileSize": 43979
+    },
+    {
+      "path": "world/datapacks/Sleep-[1.21]-v.3.1.1.zip",
+      "hashes": {
+        "sha512": "7d88ff265a4be331e49758ca630d5b983dc4309c3acc2125531573cb5b7d430e6c101c8562687feee9238f51745d57d4a902b8c88404a5aae962c465f05a1ece",
+        "sha1": "8698a0b516c85f1e748cf1d68d0d85cba4ca137f"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/WTzuSu8P/versions/a0IDefbZ/Sleep-%5B1.21%5D-v.3.1.1.zip"
+      ],
+      "fileSize": 73898
     }
   ],
   "dependencies": {
