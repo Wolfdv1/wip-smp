@@ -1,0 +1,4 @@
+{
+	// Add enchantments for the elytra dropped by dragons to have, for example: "vanishing_curse:1, unbreaking:3"
+	"elytraEnchantmentList": "vanishing_curse:1, binding_curse:1"
+}

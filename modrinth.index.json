@@ -261,21 +261,6 @@
       "fileSize": 1581057
     },
     {
-      "path": "mods/dragondropselytra-1.21.4-3.4.jar",
-      "hashes": {
-        "sha512": "3f82323ce9692daa99e48e92a85c5fa7c8318c2b5647eaab26f23d273ced763632f0ff1aeb6101bb1049b62402a77ad14d91dde4d3fdd08ebda1ecdcc25c2bf1",
-        "sha1": "222c3f17fdffb1d0a11be277f5775f115654801b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/DPkbo3dg/versions/eMeSmzmL/dragondropselytra-1.21.4-3.4.jar"
-      ],
-      "fileSize": 31201
-    },
-    {
       "path": "mods/dcintegration-fabric-MC1.21.3-3.1.0.1.jar",
       "hashes": {
         "sha1": "60eca7c3e9e2d23af1b385179cb0c0d136fc5680",
