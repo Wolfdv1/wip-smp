@@ -20,7 +20,6 @@ services:
       ENABLE_WHITELIST: true
       EXISTING_WHITELIST_FILE: MERGE
       ENFORCE_WHITELIST: true
-      ICON: data/server-icon.png
       ENABLE_QUERY: true
       MAX_PLAYERS: 20
       MAX_WORLD_SIZE: 29999984

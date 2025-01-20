@@ -7,7 +7,7 @@ then
         echo "Existing config file found, using."
         cp ./data/config/Discord-Integration.toml ./server-overrides/config/Discord-Integration.toml
     else
-        echo "No existing file found, secretless file will be used."
+        echo "No existing file found, secretless file will be used"
         cp ./server-overrides/config/Discord-Integration_empty.toml ./server-overrides/config/Discord-Integration.toml
     fi
 else
@@ -15,4 +15,5 @@ else
 fi
 rm -rf ./data/.cache ./data/.fabric ./data/config ./data/datapacks ./data/DiscordIntegration-Data ./data/libraries ./data/mods ./data/versions ./data/.fabric-manifest.json ./data/.install-modrinth.env ./data/.modrinth-modpack-manifest.json ./data/.rcon-cli.env ./data/.rcon-cli.yaml ./data/eula.txt ./data/fabric-server-mc.* ./data/server.properties ./data/wip.mrpack
 zip -r -0 ./data/wip.mrpack ./server-overrides ./modrinth.index.json
+rm ./server-overrides/config/Discord-Integration.toml
 docker compose up
