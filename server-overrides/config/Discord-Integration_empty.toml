@@ -36,7 +36,7 @@
   # Set to true to suppress warning of unsafe mod download location
   ignoreFileSource = false
   # Set to true to allow relaying webhook messages
-  allowWebhookMessages = false
+  allowWebhookMessages = true
   # Set to false to disable automatic config tweaking to fix known issues
   # Your config file will not be sent anywhere during this
   # This feature is not implemented yet
@@ -133,7 +133,7 @@ charBlacklist = [  "࿕", "࿖"  ]
 [embedMode]
   # Enabling this will send configured messages as embed messages
   # See below configuration options of this category to see what messages can be moved to embeds
-  enabled = false
+  enabled = true
 
     # Starting & Started Messages
     [embedMode.startMessages]
@@ -184,7 +184,7 @@ charBlacklist = [  "࿕", "࿖"  ]
     # Advancement messages
     [embedMode.advancementMessage]
       # Send as embed?
-      asEmbed = false
+      asEmbed = true
       # Color of embed bar
       colorHexCode = "#fee75c"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
