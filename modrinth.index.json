@@ -394,6 +394,51 @@
         "https://cdn.modrinth.com/data/WTzuSu8P/versions/a0IDefbZ/Sleep-%5B1.21%5D-v.3.1.1.zip"
       ],
       "fileSize": 73898
+    },
+    {
+      "path": "mods/RoughlyEnoughItems-18.0.796-fabric.jar",
+      "hashes": {
+        "sha1": "5c83810b154b3931471e14c21ad8334c09903caf",
+        "sha512": "d54516e02f8e0b5a11ddad70ffb6e6f3fa8c8dfc906456163cd26b628b4f5bacb9a97b20eca984ce4a549a370f61b5b03ba99be58dc1182b404446d2d1cc96e7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nfn13YXA/versions/aBHkMOqF/RoughlyEnoughItems-18.0.796-fabric.jar"
+      ],
+      "fileSize": 2493638
+    },
+    {
+      "path": "mods/itemswapper-fabric-0.7.6-mc1.21.4.jar",
+      "hashes": {
+        "sha1": "f4d8018ac56ec0287125dd25acb79eea29943c54",
+        "sha512": "39dab679e49f306191615a6c303b2fae82806aab9f685f4e6127f6b397548be195f1e9f310abfc67a707d1824f60754d3e825eca3cce7cc39f5e16b100cc6e20"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RPOSBQgq/versions/OFTIJQlk/itemswapper-fabric-0.7.6-mc1.21.4.jar"
+      ],
+      "fileSize": 881252
+    },
+    {
+      "path": "mods/architectury-15.0.1-fabric.jar",
+      "hashes": {
+        "sha512": "df0e163a560439c1911c584821a643c665b13bbd541db9a9f318cdf33db0aee4573e3c901e4a3aad585e10013de1b4dc62143dce0855a2c915fcd0b35ee28263",
+        "sha1": "a321c22dcbf3ba55e2de763952bbc07c5d814472"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/XRwibvvn/architectury-15.0.1-fabric.jar"
+      ],
+      "fileSize": 589737
     }
   ],
   "dependencies": {
