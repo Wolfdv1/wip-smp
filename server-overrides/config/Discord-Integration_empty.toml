@@ -142,7 +142,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#57f287"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"Server Started!\",\r\n    \"icon_url\": \"https://github.com/Wolfdv1/wip-smp/blob/main/server-icon.png?raw=true\"\r\n  },\r\n  \"color\": \"#639f60\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"Server Started!\",\r\n    \"icon_url\": \"https://github.com/Wolfdv1/wip-smp/blob/main/server-icon.png?raw=true\"\r\n  },\r\n  \"color\": \"6528864\"\r\n}"
 
     # Stop & Crash Messages
     [embedMode.stopMessages]
@@ -151,7 +151,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#ed4245"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"Server Stopped!\",\r\n    \"icon_url\": \"https://github.com/Wolfdv1/wip-smp/blob/main/server-icon.png?raw=true\"\r\n  },\r\n  \"color\": \"#9e6461\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"Server Stopped!\",\r\n    \"icon_url\": \"https://github.com/Wolfdv1/wip-smp/blob/main/server-icon.png?raw=true\"\r\n  },\r\n  \"color\": \"10380385\"\r\n}"
 
     # Player join message
     [embedMode.playerJoinMessage]
@@ -160,7 +160,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#57f287"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name% joined\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"color\": \"#ffffff\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name% joined\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"color\": \"16777215\"\r\n}"
 
     # Player leave messages
 # Also containing timeouts
@@ -170,7 +170,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#ed4245"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name% left\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"color\": \"#000000\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name% left\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"color\": \"0\"\r\n}"
 
     # Player Death message
     [embedMode.deathMessage]
@@ -179,7 +179,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#000000"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name%\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"title\": \"%deathMessage%\",\r\n  \"color\": \"#ff0000\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name%\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"title\": \"%deathMessage%\",\r\n  \"color\": \"16711680\"\r\n}"
 
     # Advancement messages
     [embedMode.advancementMessage]
@@ -188,7 +188,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#fee75c"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name%\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"title\": \"Just made the advancement %advName%\",\r\n  \"description\": \"%advDesc%\",\r\n  \"color\": \"#ff8000\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name%\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"title\": \"Just made the advancement %advName%\",\r\n  \"description\": \"%advDesc%\",\r\n  \"color\": \"16744448\"\r\n}"
 
     # Player chat messages
     [embedMode.chatMessages]
@@ -199,7 +199,7 @@ charBlacklist = [  "࿕", "࿖"  ]
       # Color of embed bar
       colorHexCode = "#808080"
       # Custom embed JSON, will overwrite color setting. For more info, check the documentation at https://github.com/ErdbeerbaerLP/DiscordIntegration-Core/wiki/embed-mode or ask on discord.
-      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name%\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"description\": \"%msg%\",\r\n  \"color\": \"#00b0f4\"\r\n}"
+      customJSON = "{\r\n  \"author\": {\r\n    \"name\": \"%name%\",\r\n    \"icon_url\": \"https://crafthead.net/avatar/%uuid%\"\r\n  },\r\n  \"description\": \"%msg%\",\r\n  \"color\": \"45300\"\r\n}"
 # Advanced options
 [advanced]
   # Custom channel ID for server specific messages (like Join/leave)
