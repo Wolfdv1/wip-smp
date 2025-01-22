@@ -267,11 +267,11 @@ settingsBlacklist = [    ]
 [webhook]
   # Whether or not the bot should use a webhook (it will create one)
   # This will only work in standard channels
-  enable = true
+  enable = false
   # The avatar to be used for server messages
   serverAvatarURL = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
   # The name to be used for server messages
-  serverName = " "
+  serverName = "server"
   # Use the server name and avatar for RCON
   useServerNameForRcon = true
   # Use the server name and avatar for Console
