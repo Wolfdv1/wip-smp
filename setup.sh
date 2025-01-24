@@ -17,5 +17,9 @@ rm -rf ./data/.cache ./data/.fabric ./data/config ./data/datapacks ./data/Discor
 zip -r -0 ./data/wip.mrpack ./server-overrides ./modrinth.index.json
 rm ./server-overrides/config/Discord-Integration.toml
 docker compose up -d
-docker start squaremap || docker run --name squaremap -v ./data/squaremap/web:/usr/share/nginx/html:ro -d -p 80:80 nginx
+if ! [ -f "./nginx/ssl/nginx-selfsigned.key" ]
+then
+    openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout ./nginx/ssl/nginx-selfsigned.key -out ./nginx/ssl/nginx-selfsigned.crt -batch
+fi
+docker compose -f ./docker-compose-squaremap.yml up -d
 docker attach wip-smp-mc-1

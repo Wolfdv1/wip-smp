@@ -1,0 +1,9 @@
+services:
+    nginx:
+        container_name: squaremap
+        volumes:
+            - ./data/squaremap/web:/usr/share/nginx/html:ro
+            - ./nginx:/etc/nginx/:ro
+        ports:
+            - 443:443
+        image: nginx

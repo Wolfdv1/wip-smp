@@ -1,4 +1,4 @@
 #!/bin/bash
 docker compose up -d
-docker start squaremap || docker run --name squaremap -v ./data/squaremap/web:/usr/share/nginx/html:ro -d -p 80:80 nginx
+docker compose -f ./docker-compose-squaremap.yml up -d
 docker attach wip-smp-mc-1
